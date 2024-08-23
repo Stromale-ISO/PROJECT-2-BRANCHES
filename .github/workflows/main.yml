@@ -22,6 +22,5 @@ jobs:
 
     - name: Start 
       run: | 
-        scp -o StrictHostKeyChecking=no -r ./index.html 
-        user1@34.28.128.248:/var/www/html
+        scp -o StrictHostKeyChecking=no -r ./index.html user1@34.28.128.248:/var/www/html
   
